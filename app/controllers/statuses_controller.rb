@@ -1,5 +1,11 @@
 class StatusesController < ApplicationController
   before_action :set_status, only: [:show, :edit, :update, :destroy]
+  
+  #private
+
+   #   def status_params
+    #    params.require(:status).permit(:user_id, :content)
+     # end
 
   # GET /statuses
   # GET /statuses.json
